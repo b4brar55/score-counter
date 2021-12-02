@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+	xmlns:android="http://schemas.android.com/apk/res/android"	android:orientation="vertical"
+
+	android:layout_marginLeft="10dp"
+
+	android:layout_marginRight="10dp"
+
+	android:layout_width="match_parent"
+
+	android:layout_height="match_parent">
+
+	<TextView
+
+		android:layout_width="match_parent"
+
+		android:layout_height="wrap_content"
+
+		android:text="Score Counter"
+
+		android:textAppearance="?android:attr/textAppearanceMedium"
+
+		android:paddingLeft="10dp"
+
+		android:paddingRight="10dp"
+
+		android:textColor="#FF000000"
+
+		android:textStyle="bold"
+
+		android:gravity="center"/>
+
+	<LinearLayout
+
+		android:orientation="horizontal"
+
+		android:layout_width="match_parent"
+
+		android:layout_height="wrap_content">
+
+		<LinearLayout
+
+			android:orientation="vertical"
+
+			android:layout_weight="1.0"
+
+			android:layout_width="match_parent"
+
+			android:layout_height="match_parent">
+
+			<TextView
+
+				android:layout_width="match_parent"
+
+				android:layout_height="wrap_content"
+
+				android:text="Team A"
+
+				android:paddingLeft="10dp"
+
+				android:paddingRight="10dp"
+
+				android:textAppearance="?android:attr/textAppearanceLarge"
+
+				android:gravity="center"
+
+				android:textSize="25sp"
+
+				android:textStyle="bold"/>
+
+			<TextView
+
+				android:layout_width="match_parent"
+
+				android:layout_height="wrap_content"
+
+				android:text="0"
+
+				android:id="@+id/score_team_a"
+
+				android:textAppearance="?android:attr/textAppearanceLarge"
+
+				android:gravity="center"
+
+				android:textColor="#FF000000"
+
+				android:textSize="35sp"
+
+				android:textStyle="bold"/>
+
+			<Button
+
+				android:onClick="two1"
+
+				android:padding="5sp"
+
+				android:textSize="25sp"
+
+				android:layout_width="match_parent"
+
+				android:layout_height="wrap_content"
+
+				android:text="two"/>
+
+			<Button
+
+				android:onClick="four1"
+
+				android:paddingRight="5sp"
+
+				android:paddingBottom="5sp"
+
+				android:paddingLeft="5sp"
+
+				android:textSize="25sp"
+
+				android:layout_width="match_parent"
+
+				android:layout_height="wrap_content"
+
+				android:text="four"/>
+
+			<Button
+
+				android:onClick="six1"
+
+				android:paddingRight="5sp"
+
+				android:paddingLeft="5sp"
+
+				android:textSize="25sp"
+
+				android:layout_width="match_parent"
+
+				android:layout_height="wrap_content"
+
+				android:text="six"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+
+			android:orientation="vertical"
+
+			android:layout_weight="1.0"
+
+			android:layout_width="match_parent"
+
+			android:layout_height="match_parent">
+
+			<TextView
+
+				android:layout_width="match_parent"
+
+				android:layout_height="wrap_content"
+
+				android:text="Team B"
+
+				android:paddingLeft="10dp"
+
+				android:paddingRight="10dp"
+
+				android:textAppearance="?android:attr/textAppearanceLarge"
+
+				android:gravity="center"
+
+				android:textSize="25sp"
+
+				android:textStyle="bold"/>
+
+			<TextView
+
+				android:layout_width="match_parent"
+
+				android:layout_height="wrap_content"
+
+				android:text="0"
+
+				android:id="@+id/score_team_b"
+
+				android:textAppearance="?android:attr/textAppearanceLarge"
+
+				android:gravity="center"
+
+				android:textColor="#FF000000"
+
+				android:textSize="35sp"
+
+				android:textStyle="bold"/>
+
+			<Button
+
+				android:onClick="two2"
+
+				android:padding="5sp"
+
+				android:textSize="25sp"
+
+				android:layout_width="match_parent"
+
+				android:layout_height="wrap_content"
+
+				android:text="two"/>
+
+			<Button
+
+				android:onClick="four2"
+
+				android:paddingRight="5sp"
+
+				android:paddingBottom="5sp"
+
+				android:paddingLeft="5sp"
+
+				android:textSize="25sp"
+
+				android:layout_width="match_parent"
+
+				android:layout_height="wrap_content"
+
+				android:text="four"/>
+
+			<Button
+
+				android:onClick="six2"
+
+				android:paddingRight="5sp"
+
+				android:paddingLeft="5sp"
+
+				android:textSize="25sp"
+
+				android:layout_width="match_parent"
+
+				android:layout_height="wrap_content"
+
+				android:text="six"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<Button
+
+		android:layout_marginTop="20sp"
+
+		android:textStyle="bold"
+
+		android:textSize="25sp"
+
+		android:onClick="resetBtn"
+
+		android:layout_width="match_parent"
+
+		android:layout_height="wrap_content"
+
+		android:text="Reset"/>
+
+</LinearLayout>
